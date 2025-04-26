@@ -671,6 +671,8 @@ align-items: center;
             color: #ffffff;
             background: #4d5ae5;
             border: none;
+            min-width: 165px;
+            cursor: pointer;
 
 }
 /* .form-subscribe-fields {
