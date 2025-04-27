@@ -875,17 +875,17 @@ margin-right: 8px;
     
  }
  .input-checkbox-privacy:checked+.label-user-privacy .span-user-privacy {
-     background-color: var(--#404bbf;);
+     background-color:#404bbf;
      
      border: none;
  }
 
  .input-checkbox-privacy:checked+.label-user-privacy .span-user-privacy svg {
-     fill: var(--#F4F4FD);
+     fill: #F4F4FD;
      
  }
  .privacy-link {
-     color: var(--#4d5ae5;);
+     color: #4d5ae5;
      
      
  }
