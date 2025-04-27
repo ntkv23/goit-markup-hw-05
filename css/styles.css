@@ -755,15 +755,13 @@ border: none;
 
 
 }
+.button-modal:hover .button-close-icon,
+.button-modal:focus .button-close-icon{
+    fill: #ffffff;
+}
+
 .button-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-.button-close-icon:hover{
-fill: #ffffff;
-}
-.button-close-icon:focus{
-fill: #ffffff;
 
 }
 .modal-title{
@@ -852,11 +850,7 @@ color: #8e8f99;
  margin-bottom: 24px;   
 }
 
-.input-checkbox-privacy{
-
-}
-
- .label-user-privacy{
+.label-user-privacy{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -876,10 +870,7 @@ margin-right: 8px;
 
 
  }
- .chekbox-icon{
 
-    
- }
  .input-checkbox-privacy:checked+.label-user-privacy .span-user-privacy {
      background-color:#404bbf;
      
