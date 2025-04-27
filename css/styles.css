@@ -776,6 +776,10 @@ fill: #ffffff;
         margin-bottom: 16px;
 
 }
+.input-container{
+margin-bottom: 8px;
+
+}
 .form-modal{
 margin-bottom: 8px;
 
@@ -788,6 +792,7 @@ letter-spacing: 0.04em;
 color: var(--#8e8f99);
 display: block;
 margin-bottom: 4px;
+color: #8e8f99;
 
 }
 .form-input-name-wrap{
@@ -854,7 +859,7 @@ margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--text-color-privacy);
+    color: #8e8f99;
  }
  .span-user-privacy{
     width: 16px;
@@ -904,4 +909,7 @@ margin-right: 8px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 margin-left: 119px;
+ }
+ .input-checkbox-privacy:checked + label > span{
+    fill: #F4F4FD;;
  }
